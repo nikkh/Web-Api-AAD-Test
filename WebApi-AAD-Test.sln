@@ -5,6 +5,7 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA6D8769-EB2B-4D0B-A082-7D78995C59DE}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		..\..\..\..\Dropbox\Settings Files\WebApiClientConsoleApp.Settings.config = ..\..\..\..\Dropbox\Settings Files\WebApiClientConsoleApp.Settings.config
 		..\..\..\..\Dropbox\Settings Files\WebApiService.Settings.config = ..\..\..\..\Dropbox\Settings Files\WebApiService.Settings.config
 	EndProjectSection

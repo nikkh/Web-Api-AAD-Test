@@ -1,5 +1,7 @@
 # Web-Api-AAD-Test
 
-One of my customers asked about securing a webapi with Azure Active Directory.  Before answering, I decided to do some research.  This sample and the accompanying documentation record my investigation.
+Someone asked about securing a webapi with Azure Active Directory. In this case, they wanted application authentication.
 
-fff
+As I was explaining it I realised I hadn't actually done this myself so I resolved to try it out.
+
+Everything you need to try this out should be on this site.
