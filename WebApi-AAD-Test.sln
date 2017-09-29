@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA6D8769-EB2B-4D0B-A082-7D78995C59DE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Dropbox\Settings Files\WebApiClientConsoleApp.Settings.config = ..\..\..\..\Dropbox\Settings Files\WebApiClientConsoleApp.Settings.config
+		..\..\..\..\Dropbox\Settings Files\WebApiService.Settings.config = ..\..\..\..\Dropbox\Settings Files\WebApiService.Settings.config
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClientConsoleApp", "WebApiClientConsoleApp\WebApiClientConsoleApp.csproj", "{593689BD-FA11-408C-BF2C-6AA844DF80DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiService", "WebApiService\WebApiService.csproj", "{DF734826-6E6C-4226-B1A0-A5A10C27E4CB}"
