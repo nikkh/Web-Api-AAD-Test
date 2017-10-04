@@ -90,7 +90,7 @@ namespace WebApiClientConsoleApp
             Console.WriteLine("Authenticating for App Id={0}", appId);
             // The client id is used to identify this console applications 'application' in Azure AD
             string clientID = GetClientId(appId);
-            Console.WriteLine("clientID: {0}", clientID);
+            Console.WriteLine("First part of clientID: {0}", clientID.Substring(0, 10));
 
             // The client secret is the secret code to prove that this is indeed the right console application (client generally)
             string clientSecret = GetClientSecret(appId);
