@@ -182,7 +182,7 @@ namespace WebApiClientConsoleApp
         private async static Task PrintExpectedResults(int appId)
         {
             
-            Console.WriteLine("Application {0} clientId:{1} Expected Results", appId, GetClientId(appId));
+            Console.WriteLine("Application {0} clientId:{1} Expected Results", appId, GetClientId(appId).Substring(0,10));
             bool[] results = EXPECTED_RESULTS[appId];
             Console.WriteLine("Products Api: {0}", results[0]);
             Console.WriteLine("Customers Api: {0}", results[1]);
